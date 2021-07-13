@@ -1,0 +1,182 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+/*-----------------------
+     header design
+------------------- */
+header{
+    display: flex;
+    background-color: #2D25A0;
+    height: 680px;
+    justify-content: center;
+}
+header article h1{
+    width: 485px;
+    height: 200px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 80px;
+    color: #FFFFFF;
+    margin-left: 156px;
+    margin-top: 207px;
+    margin-right: 102px;
+
+}
+.banner > img {
+    margin-left: 102px;
+    margin-top: 153px;
+    margin-bottom: 86px;
+    margin-right: 141px;
+    width: 556px;
+    height: 438px;
+}    
+button{
+    width: 168px;
+    height: 44px;
+    padding: 10px 24px;
+    background-color: #E02C6D;
+    border: none;
+    margin-left: 160px;
+}
+button, a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 15px;
+}
+.fa-arrow-right{
+    margin-left: 10px;
+}
+/*-------------------------
+     main section 
+---------------------*/
+/*--------------------------
+     first section
+-------------------------*/
+.players-section{
+    display: grid;
+    grid-template-columns: repeat(3, 360px);
+    row-gap: 28px;
+    column-gap: 30px;
+    margin-left: 180px;
+    margin-top: 77px;
+    margin-right: 210px;
+}
+.player-info > img{
+    width: 300px;
+    height: 256px;
+    padding: 15px;
+}
+.player-info{
+    width: 330px;
+    height: 474px;
+    margin-left: 180px;
+    padding: 15px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    background-color: #FFFFFF;
+}
+.player-description {
+    margin-left: 15px;
+    text-align: justify;
+}
+.player-description h1{
+   
+    width: 300px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 28px;
+    margin-top: 15px;
+    line-height: 40px;
+    height: 15px;
+
+}
+.player-description  p{
+    
+    width: 300px;
+    font-size: 16px;
+    line-height: 26px;
+  font-family: 'Poppins', sans-serif;  
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #6C6C6C;
+}
+/*---------------------
+    second section
+-------------------*/
+.second-section{
+    display: flex;
+justify-content: center;
+}
+.second-section > article > img{
+    width: 567px;
+    height: 427px;
+    margin-top: 165px;
+    margin-left: 69px;
+    margin-right: 156px;
+    margin-top: 165px;
+}
+.second-section-text{
+    width: 466px;
+    height: 241px;
+    margin-top: 224px;
+    margin-left: 182px;
+}
+.second-section > .second-section-text > h1{
+    width: 466px;
+    line-height: 60px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    margin: 0;
+}
+.second-section > .second-section-text > p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    width: 404px;
+    color: #6C6C6C;
+}
+.btn{
+    width: 168px;
+    height: 44px;
+    padding: 10px 24px;
+    background-color: #E02C6D;
+    border: none;
+    margin: 0;
+}
+/*----------------------------
+      top leagues 
+--------------------------*/
+.world-best-leagues{
+    display: grid;
+    grid-template-columns: repeat(4, 300px);
+    row-gap: 80px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 50px;
+}
+.leagues-title{
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    margin-left: 20px;
+    margin-top: 100px;
+}
+.top-leagues{
+    height: 250px;
+    width: 220px;
+    padding: 15px;
+    margin-left: 350px;
+    background-color: #F1EEE7;
+    font-family: 'Poppins', sans-serif;
+    text-align: justify;
+}
+.last-part{
+    margin-left: 650px;
+}
+b{
+    color: #6C6C6C;
+}
+.top-leagues > p{
+    color: #6C6C6C;   
+}
