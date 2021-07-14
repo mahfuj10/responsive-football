@@ -257,9 +257,7 @@ font-size: 20px;
 --------------------*/
 /* ------------ Mobile -------------*/
 @media (max-width:688px) {
-body{
-    background-color: aqua;
-}
+
 header{
         flex-direction: column;
         align-content: space-between;
@@ -287,7 +285,7 @@ header article h1{
         margin-left: 20px;
 }
 .header-image{
-        width: 120%;
+        width: 100%;
         margin: 0;
         padding: 0;
 }
