@@ -6,6 +6,10 @@ body{
 /*-----------------------
      header design
 ------------------- */
+.banner > img:hover{
+    transform: rotate(360deg);
+    transition: 1s;
+}
 header{
     display: flex;
     background-color: #2D25A0;
@@ -45,6 +49,11 @@ button, a{
     text-decoration: none;
     color: #FFFFFF;
     font-size: 15px;
+}
+button:hover{
+    transform: translate(120px);
+    transition: 1s ease-in;
+   
 }
 .fa-arrow-right{
     margin-left: 10px;
@@ -272,13 +281,8 @@ header article h1{
         margin-bottom: 60px;
         margin-left: 10px;
 }
-header{
-        width: 98%;
-        margin: 0;
-        padding: 0;
-}
-main{
-        width: 98%;
+.header-image{
+        width: 100%;
         margin: 0;
         padding: 0;
 }
