@@ -256,17 +256,19 @@ font-size: 20px;
     media quiery
 --------------------*/
 @media (max-width:688px) {
+
 header{
         flex-direction: column;
         align-content: space-between;
         height: 100%;
         width: 100%;
+
 }  
 header article h1{
     color: #E02C6D;
     margin: 0;
     font-size: 50px;
-    width: 98%;
+    width: 95%;
     margin-left: 20px;
 }
 .button{
@@ -275,21 +277,23 @@ header article h1{
 }
 .banner > img{
         margin: 0;
-        width: 98%;
+        width: 90%;
         height: 60%;
         margin-top: 70px;
         margin-bottom: 60px;
-        margin-left: 10px;
+        margin-left: 20px;
 }
 .header-image{
-        width: 130%;
+        width: 100%;
         margin: 0;
         padding: 0;
 }
 .players-section{
     grid-template-columns: repeat(1, 1fr);
     justify-content: center;
-    margin-left:0px;
+    margin-top: 50px;
+    margin-right: 0;
+    margin-left: 0;
 }
 .second-section{
     flex-direction: column;
@@ -319,13 +323,13 @@ margin-top: 90px;
     margin-right: 0;
     width: 98%;
     height: 70%;
-    margin-left: 10%;
+    margin-left: 0%;
 }
 .bakground-image{
-    width: 130%;
+    width: 99%;
 }
 .player-info {
-    margin-left: 50%;
+    margin-left: 0%;
 }
 .world-best-leagues{
     grid-template-columns: repeat(1, 1fr);
@@ -337,7 +341,8 @@ margin-top: 90px;
     margin-left: 10px;
 }
 .top-leagues{
-margin-left: 60px;
+margin-left: 50px;
+margin-right: 0;
 
 }
 .best-football-title{
@@ -358,7 +363,7 @@ margin-left: 140px;
 }
 }
 /*--------------------- Tab ---------------------*/
-@media (min-width:689px) and (max-width:1100px) {
+@media (min-width:689px) and (max-width:1300px) {
     header{
         flex-direction: column;
         align-content: space-between;
@@ -376,16 +381,13 @@ header article h1{
 .button{
     margin-left: 20px;
 }
-.button > a{
-letter-spacing: 4px;
-}
 .banner > img{
         margin: 0;
-        width: 80%;
+        width: 70%;
         height: 60%;
         margin-top: 30px;
         margin-bottom: 60px;
-        margin-left: 100px;
+        margin-left: 180px;
 }
 .header-image{
         width: 100%;
@@ -396,9 +398,10 @@ letter-spacing: 4px;
     margin-left: 0;
 }
 .players-section{
-    grid-template-columns: repeat(2, 1fr);
-    justify-content: center;
-    margin-left: 0 auto;
+    grid-template-columns: repeat(2, 350px);
+    /* justify-content: center; */
+    margin-left: 0;
+    margin-right: 0;
 }
 .second-section{
     flex-direction: column;
@@ -429,19 +432,20 @@ margin-top: 170px;
 .second-section > article > img{
     margin-left: 0;
     margin-right: 0;
-    width: 98%;
+    width: 50%;
     height: 70%;
     
 }
 .world-best-leagues{
     grid-template-columns: repeat(2, 350px);
     row-gap: 60px;
-    margin-left: 150px;
+    margin-left: 0px;
 }
 .leagues-title{
     margin: 0;
     font-size: 30px;
     margin-left: 10px;
+    width: 60%;
     margin-top: 50px;
 
 }
@@ -464,6 +468,7 @@ margin-top: 500px;
 .contact-icon{
 margin-left: 430px;
 font-size: 35px;
+margin-left: 320px;
 }
 .copy-text{
     font-size: 25px;
